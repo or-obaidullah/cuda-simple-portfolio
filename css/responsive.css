@@ -1,0 +1,123 @@
+@media(max-width: 1200px){
+    .container{
+        margin: 0 1.5em;
+    }
+}
+@media(max-width: 1024px){
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .about-us .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .about-us .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin-left: 0;
+    }
+    .contact form{
+        width: 100%;
+        margin-left: 0;
+    }
+    .contact input[type="email"]{
+        margin-left: 1.6rem;
+    }
+    .hero-text-box{
+        width: 100%;
+    }
+    .mobile-menu span{
+        display: block;
+    }
+    .header-section{
+        height: 65vh;
+    }
+}
+@media(max-width: 980px){
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    .container{
+       margin: 0 7px;
+    }
+}
+@media(max-width: 768px){
+    .little-description{
+        width: 100%;
+    }
+    .text-heading{
+        font-size: 3.5rem;
+    }
+    .contact input[type="email"]{
+        margin-left: 1.2rem;
+    }
+}
+@media(max-width: 590px){
+    .porfolio img{
+        width: 95%;
+    }
+    .porfolio h4{
+        font-size: 1.7rem;
+    }
+}
+
+@media(max-width: 560px){
+    .contact input[type="email"]{
+        margin-left: 0.8rem;
+    }
+    html{
+        font-size: 54.5%;
+    }
+}
+@media(max-width: 480px){
+    .span_1_of_4 {
+        width: 100%;
+    }
+    .contact input[type="email"]{
+        margin-left: 0;
+    }
+    .hero-text-box{
+        width: 90%;
+    }
+    html{
+        font-size: 52.5%;
+    }
+    .text-heading{
+        font-size: 3.2rem;
+    }
+    .about-us .col:nth-child(3),
+    .about-us .col:nth-child(4){
+        margin-top: 4rem;
+    }
+    .header-section{
+        height: 80vh;
+    }
+}
+@media(max-width: 414px){
+    .porfolio h4 {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    .about-us .client-photo img {
+        height: 15rem;
+    }
+    .btn:link, .btn:visited, .btn {
+        margin-top: 3rem;
+    }
+    .header-section{
+        height: 62vh;
+    }
+}
+@media(max-width: 360px){
+    .header-section{
+        height: 85vh;
+    }
+}
